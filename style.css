@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 50, 28, 0.8), rgba(0, 50, 40, 0.8)), url(logo.png);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.form-box {
+  width: 90%;
+  max-width: 450px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #fff;
+  padding: 50px 60px 70px;
+  text-align: center;
+}
+
+.form-box h1 {
+  font-size: 30px;
+  margin-bottom: 60px;
+  color: rgba(0, 0, 0, 0.948);
+  position: relative;
+}
+
+.form-box h1::after {
+  content: '';
+  width: 30px;
+  height: 4px;
+  border-radius: 3px;
+  background: #00a065;
+  position: absolute;
+  bottom: -12px;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.input-field {
+  background: #eaeaea;
+  margin: 15px 0;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  max-height: 65px;
+  transition: max-height 0.5s;
+  overflow: hidden;
+}
+
+input {
+  width: 100%;
+  background: transparent;
+  border: 0;
+  outline: 0;
+  padding: 18px 15px;
+}
+
+form p {
+  text-align: left;
+  font-size: 13px;
+}
+
+form p a {
+  text-decoration: none;
+  color: #00a038;
+}
+
+.captcha {
+  display: flex;
+}
+
+#captchaValue {
+  height: 40px;
+  padding: 10px;
+  line-height: 20px;
+  background-color: #fff;
+  border-radius: 10px 0 0 10px;
+  color: #000;
+  font-weight: 700;
+  border-right: 2px solid gray;
+}
+
+.captch input {
+  border-radius: 0 10px 10px 0 !important;
+}
+
+.submitBtn {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: solid;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 0px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.submitBtn:hover {
+  background-color: #3e8e41; /* Dark green */
+}
+
+.submitBtn:active {
+  background-color: #4CAF50; /* Green */
+  transform: translateY(1px);
+}
+  
