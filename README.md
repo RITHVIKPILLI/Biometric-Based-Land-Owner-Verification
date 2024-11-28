@@ -1,9 +1,10 @@
 BIOMETRIC BASED LAND OWNER VERIFICATION
-Land forgery cases are increasing in our day by day and we are unable to find the person who is trying to claim falsely and who is the real owner. 
-People are finding a way to create fake documents to claim for the land which they don’t even own. So to get a proper solution they are approaching
-court cases in such land dispute take a lot of time to find the actual owner.So I came up with the idea of biometric verification which can solve or
-avoid the land forgery. We can easily find who is the real land owner by verifying their identity through biometric which take less than 10 minutes 
-and saves time comparatively when approached through court case.
+Land forgery cases are on the rise, making it increasingly difficult to distinguish between genuine landowners and individuals falsely claiming ownership.
+Fraudsters often create fake documents to stake claims on properties they do not own. Resolving such disputes through the legal system can be time-consuming 
+and cumbersome, often requiring years to identify the rightful owner.To address this issue, I propose the implementation of biometric verification for landownership.
+This system can efficiently verify the owner’s identity, drastically reducing the time and resources compared to lengthy court cases. By leveraging biometric
+technology, we can ensure secure and accurate landowner verification, effectively preventing land forgery and streamlining the resolution of disputes.
+
 
 (Note: Before running this project, follow these steps:
       1.Install XAMPP:
